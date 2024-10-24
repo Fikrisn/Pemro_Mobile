@@ -1,0 +1,36 @@
+name: coba_uts
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  carousel_slider: ^4.0.0  # Versi terbaru
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/trip1.jpg
+    - assets/images/trip2.jpg
+    - assets/images/trip3.jpg
+    - assets/images/logo.png
+    - assets/images/destination1.jpg
+    - assets/images/destination2.jpg
+    - assets/images/destination3.jpg
+    - assets/images/destination4.jpg
+    - assets/images/destination5.jpg
+    - assets/images/destination6.jpg
+    - assets/images/profile.jpg
